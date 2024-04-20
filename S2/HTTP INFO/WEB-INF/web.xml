@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>submit</servlet-name>
+        <servlet-class>RequestInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>submit</servlet-name>
+        <url-pattern>/submit</url-pattern>
+    </servlet-mapping>
+</web-app>
